@@ -4,5 +4,9 @@ go:
   - 1.8.x
   - master
 
+before_install:
+  - cp .netrc ~
+  - chmod 600 .netrc
+
 script:
   - go run
