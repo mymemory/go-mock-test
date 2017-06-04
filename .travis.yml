@@ -4,8 +4,5 @@ go:
   - 1.8.x
   - master
 
-install:
-  - go get
-
 script:
   - go run
